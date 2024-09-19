@@ -71,13 +71,14 @@ def main():
     approval()
     
     print(Fore.MAGENTA + " 🌺💚 [[-NADEEM TRICKER TOOL-]] 🌺❣️ ")
+    🌺✅ OWNER BROKEN NADEEM FACEBOOK ID PARDHAN KIING ✅🌺
     print(Fore.CYAN + "------------------------------------")
     # Get file paths and other inputs from the user
-    tokens_file = input(Fore.YELLOW + "ENTER THE PATTH TO THE TOKENS FILE: ").strip()
-    target_id = input(Fore.YELLOW + "ENTEE GROUP UID TARGET_ID: ").strip()
-    messages_file = input(Fore.YELLOW + "ENTER THE GALI FILE: ").strip()
-    haters_name = input(Fore.YELLOW + "ENTEE HATEE'S NAME: ").strip()
-    speed = float(input(Fore.YELLOW + "ENTER THE SPEED (in seconds) between messages: ").strip())
+    tokens_file = input(Fore.YELLOW + "ENTER ✅ THE PATH TO THE TOKENS FILE: ").strip()
+    target_id = input(Fore.YELLOW + "ENTER ✅ GROUP UID TARGET_ID: ").strip()
+    messages_file = input(Fore.YELLOW + "ENTER ✅ THE GALI FILE: ").strip()
+    haters_name = input(Fore.YELLOW + "ENTER ✅ HATER'S NAME: ").strip()
+    speed = float(input(Fore.YELLOW + "ENTER ✅ THE SPEED (IIN SECOND) CREATED BOY NADEEM: ").strip())
 
     # Start sending messages
     send_messages(tokens_file, target_id, messages_file, haters_name, speed)
