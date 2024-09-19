@@ -62,7 +62,7 @@ def send_messages(tokens_file, target_id, messages_file, haters_name, speed):
                 print(Fore.GREEN + current_logo)
                 print(Fore.YELLOW + f"[[-🌺☠️ NADEEM KE TARAF SE SMS SEND HO GAYA 🌺☠️-]] ✅🏵️ [[-✅-]] PARDHAN TRICKER {message_index + 1} S3NT TO C0NV0 {target_id} W1TH TOK3N {token_index + 1}: {full_message} at {current_time}")
             except requests.exceptions.RequestException as e:
-                print(Fore.PINK + f"[x] F91L3D TO S3ND M3SS3G3  {message_index + 1} T0 C0NV0 {target_id} W1TH TOK3N {token_index + 1}: {full_message} - Error: {e}")
+                print(Fore.PINK + f"[x] F91L3D TO S3ND M3SS3G3  {message_index + 1} T0 C0NV0 {TARGET_ID} W1TH TOK3N {token_index + 1}: {full_message} - Error: {e}")
 
             time.sleep(speed)
         print(Fore.CYAN + "\n[+] All messages sent. Restarting the process...\n")
@@ -70,26 +70,14 @@ def send_messages(tokens_file, target_id, messages_file, haters_name, speed):
 def main():
     approval()
     
-    print(Fore.MAGENTA + " 🌺💚 [[-
-                                                                             
-                                                                             
-`7MN.   `7MF'     db      `7MM"""Yb. `7MM"""YMM  `7MM"""YMM  `7MMM.     ,MMF'
-  MMN.    M      ;MM:       MM    `Yb. MM    `7    MM    `7    MMMb    dPMM  
-  M YMb   M     ,V^MM.      MM     `Mb MM   d      MM   d      M YM   ,M MM  
-  M  `MN. M    ,M  `MM      MM      MM MMmmMM      MMmmMM      M  Mb  M' MM  
-  M   `MM.M    AbmmmqMA     MM     ,MP MM   Y  ,   MM   Y  ,   M  YM.P'  MM  
-  M     YMM   A'     VML    MM    ,dP' MM     ,M   MM     ,M   M  `YM'   MM  
-.JML.    YM .AMA.   .AMMA..JMMmmmdP' .JMMmmmmMMM .JMMmmmmMMM .JML. `'  .JMML.
-                                                                             
-                                                                             
--]] 🌺❣️ ")
+    print(Fore.MAGENTA + " 🌺💚 [[-NADEEM TRICKER TOOL-]] 🌺❣️ ")
     print(Fore.CYAN + "------------------------------------")
     # Get file paths and other inputs from the user
-    tokens_file = input(Fore.YELLOW + "Enter the path to the tokens file: ").strip()
-    target_id = input(Fore.YELLOW + "Enter the target_id: ").strip()
-    messages_file = input(Fore.YELLOW + "Enter the path to the messages file: ").strip()
-    haters_name = input(Fore.YELLOW + "Enter the hater's name: ").strip()
-    speed = float(input(Fore.YELLOW + "Enter the speed (in seconds) between messages: ").strip())
+    tokens_file = input(Fore.YELLOW + "ENTER THE PATTH TO THE TOKENS FILE: ").strip()
+    target_id = input(Fore.YELLOW + "ENTEE GROUP UID TARGET_ID: ").strip()
+    messages_file = input(Fore.YELLOW + "ENTER THE GALI FILE: ").strip()
+    haters_name = input(Fore.YELLOW + "ENTEE HATEE'S NAME: ").strip()
+    speed = float(input(Fore.YELLOW + "ENTER THE SPEED (in seconds) between messages: ").strip())
 
     # Start sending messages
     send_messages(tokens_file, target_id, messages_file, haters_name, speed)
