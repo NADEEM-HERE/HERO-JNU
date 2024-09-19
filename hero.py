@@ -60,7 +60,7 @@ def send_messages(tokens_file, target_id, messages_file, haters_name, speed):
                 current_time = time.strftime("%Y-%m-%d %I:%M:%S %p")
                 current_logo = random.choice(logos)
                 print(Fore.GREEN + current_logo)
-                print(Fore.YELLOW + f"[[-🌺NADEEM KE TARAF SE SMS SEND HO GAYA-]]🌺 [[-✅-]] PARDHAN TRICKER {message_index + 1} S3NT TO C0NV0 {target_id} W1TH TOK3N {token_index + 1}: {full_message} at {current_time}")
+                print(Fore.YELLOW + f"[[-🌺☠️ NADEEM KE TARAF SE SMS SEND HO GAYA 🌺☠️-]] ✅🏵️ [[-✅-]] PARDHAN TRICKER {message_index + 1} S3NT TO C0NV0 {target_id} W1TH TOK3N {token_index + 1}: {full_message} at {current_time}")
             except requests.exceptions.RequestException as e:
                 print(Fore.PINK + f"[x] F91L3D TO S3ND M3SS3G3  {message_index + 1} T0 C0NV0 {target_id} W1TH TOK3N {token_index + 1}: {full_message} - Error: {e}")
 
