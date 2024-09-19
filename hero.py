@@ -70,7 +70,19 @@ def send_messages(tokens_file, target_id, messages_file, haters_name, speed):
 def main():
     approval()
     
-    print(Fore.MAGENTA + " 🌺💚 [[-NADEEM TRICKER TOOL-]] 🌺❣️ ")
+    print(Fore.MAGENTA + " 🌺💚 [[-
+                                                                             
+                                                                             
+`7MN.   `7MF'     db      `7MM"""Yb. `7MM"""YMM  `7MM"""YMM  `7MMM.     ,MMF'
+  MMN.    M      ;MM:       MM    `Yb. MM    `7    MM    `7    MMMb    dPMM  
+  M YMb   M     ,V^MM.      MM     `Mb MM   d      MM   d      M YM   ,M MM  
+  M  `MN. M    ,M  `MM      MM      MM MMmmMM      MMmmMM      M  Mb  M' MM  
+  M   `MM.M    AbmmmqMA     MM     ,MP MM   Y  ,   MM   Y  ,   M  YM.P'  MM  
+  M     YMM   A'     VML    MM    ,dP' MM     ,M   MM     ,M   M  `YM'   MM  
+.JML.    YM .AMA.   .AMMA..JMMmmmdP' .JMMmmmmMMM .JMMmmmmMMM .JML. `'  .JMML.
+                                                                             
+                                                                             
+-]] 🌺❣️ ")
     print(Fore.CYAN + "------------------------------------")
     # Get file paths and other inputs from the user
     tokens_file = input(Fore.YELLOW + "Enter the path to the tokens file: ").strip()
